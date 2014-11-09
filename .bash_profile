@@ -32,7 +32,7 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 # Finally, we alias ls to include a few flags by default. -G colorizes output, -h makes sizes human readable, and -F throws a / after a directory, * after an executable, and a @ after a symlink, making it easier to quickly identify things in directory listings.
 alias ls='ls -GFh'
 
-# ensure git autocomplete runs
+# ensure git autocomplete loads and runs
 if [ -f ~/.git-completion.bash ]; then
   source ~/.git-completion.bash
 fi
