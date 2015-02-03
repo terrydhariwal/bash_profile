@@ -8,7 +8,7 @@ export PATH=$PATH:$BRACKETS_DIR
 export PATH="/usr/local/bin:$PATH"
 
 # Add android path
-export PATH="/Users/Terry/Library/Android/sdk/platform-tools/adb:$PATH"
+export PATH="/Users/Terry/Library/Android/sdk/platform-tools/:$PATH"
 
 ##########################  EASILY SWITCH JDK ############################
 function setjdk() {
